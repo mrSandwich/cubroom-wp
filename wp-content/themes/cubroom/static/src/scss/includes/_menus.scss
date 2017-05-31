@@ -1,0 +1,51 @@
+
+.menus {
+
+	background: url(../images/bg-bldg.jpg) no-repeat;
+	@include background-size(cover);
+	color: #fff;
+	text-align: center;
+
+	.section-inner {
+
+		max-width: 315px;
+		margin: 0 auto;
+		padding: 64px 0;
+	}
+
+	li {
+		margin-bottom: 22px;
+		&:last-of-type {
+			margin-bottom: 0;
+		}
+	}
+
+	h2 {
+
+		margin-bottom: 28px;
+	}
+
+	a {
+		font: 20px/24px $font-montserrat;
+		border: 1px solid #fff;
+		color: #fff;
+		text-transform: uppercase;
+		padding: 10px 0 12px;
+		@include transition(all 0.5s ease-in-out);
+		&:hover {
+			background-color: #fff;
+			color: #000;
+		}
+	}
+}
+
+@media ( max-width: $size-mobile-max ) {
+
+	.menus {
+
+		.section-inner {
+
+			padding: 64px 20px;
+		}
+	}
+}

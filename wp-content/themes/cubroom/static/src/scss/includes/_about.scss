@@ -1,0 +1,29 @@
+
+.about {
+
+	color: #9a725c;
+
+	.section-inner {
+		padding-top: 32px;
+		padding-bottom: 32px;
+	}
+
+	h2 {
+		margin-bottom: 7px;
+	}
+
+	p {
+		padding-right: 151px;
+	}
+}
+
+@media ( max-width: $size-mobile-max ) {
+
+	.about {
+
+		p {
+			padding-right: 0;
+		}
+	}
+
+}

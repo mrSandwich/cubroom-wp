@@ -1,0 +1,48 @@
+
+#gallery {
+	position: relative;
+	background-color: #000;
+}
+
+.arrow {
+	position: absolute;
+	top: 40%;
+	height: 75PX;
+	width: 39px;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	outline: none;
+	-moz-outline: none;
+}
+
+.next-arrow {
+	right: 34px;
+	background: url(../images/next-arrow.png) no-repeat;
+}
+
+.prev-arrow {
+	left: 34px;
+	background: url(../images/prev-arrow.png) no-repeat;
+}
+
+
+
+
+@media ( max-width: $size-mobile-max ) {
+
+	.arrow {
+		height: 34px;
+		width: 20px;
+		top: 50%;
+	}
+	.next-arrow {
+	right: 20px;
+	background: url(../images/arrow-next-sm.png) no-repeat;
+	}
+
+	.prev-arrow {
+		left: 20px;
+		background: url(../images/arrow-prev-sm.png) no-repeat;
+	}
+}

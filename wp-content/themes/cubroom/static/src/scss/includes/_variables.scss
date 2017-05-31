@@ -1,0 +1,37 @@
+
+
+//Fonts
+$font-montserrat: 	  	  "montserratregular", Arial, sans-serif;
+$font-montserratBold: 	  "montserratbold", Arial, sans-serif;
+$font-montserrathairline: "montserrathairline", Arial, sans-serif;
+$font-montserratthin:	  "montserratthin", Arial, sans-serif;
+
+
+//Colors
+$color-offwhite: #F0EAE9;
+$color-brown: 	 #9A725C;
+
+
+//Sizes
+$size-lg: 				1280px;
+$size-md: 				1024px;
+$size-tablet:			768px;
+$size-mobile: 			320px;
+
+$size-md-max: 	  		1279px;
+$size-tablet-max: 		1023px;
+$size-mobile-max: 		767px;
+$size-mobile-portrait: 	568px;
+$size-mobile:			320px;
+
+
+//mixins
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+

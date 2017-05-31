@@ -1,0 +1,263 @@
+
+
+.page-header {
+
+	.section-inner {@include clearfix;}
+	position: relative;
+	padding: 85px 0;
+	background: url(../images/header.jpg) no-repeat;
+	@include background-size(cover);
+
+	.logo {
+		float: left;
+		margin-top: 13%;
+		h1 {
+			font-size: 0; 
+			position: absolute;
+		}
+
+		.fun-list {
+			font: 16px/19px $font-montserrat;
+			color: $color-offwhite;
+			text-transform: uppercase;
+			letter-spacing: 0.09em;
+			border-top: 1px solid $color-offwhite;
+			border-bottom: 1px solid $color-offwhite;
+			margin-top: 5px;
+    		padding: 4px 0 13px 0px;
+			li {
+				@include inline-block;
+				list-style-type: disc;
+				position: relative;
+				&:after {
+					display: inline-block;
+					content: '.';
+					font-size: 30px;
+					vertical-align: bottom;
+					margin: 0 3px 8px 7px
+				}
+				&:last-of-type {
+					margin-right: -19px;
+					&:after {
+						color: transparent;
+					}
+				}
+			}
+		}
+	}
+
+	.main-nav {
+		float: right;
+
+		li {
+			border-bottom: 1px solid $color-offwhite;
+			padding: 13px 9px 10px 0;
+			&:last-of-type {
+				border-bottom: none;
+			}
+			a {
+				font: 18px $font-montserrat; 
+				letter-spacing: 0.09em;
+				font-weight: 200;
+				color: $color-offwhite;
+				text-transform: uppercase;
+			}
+		}
+
+		&.is-fixed {
+			position: fixed;
+			top: 0;
+		}
+
+		&.is-absolute {
+			position: absolute;
+		}
+
+	}
+
+	.floating-nav {
+		position: fixed;
+		z-index: 2;
+		top: 0;
+		left: 0;
+		width: 100%;
+		background-color: rgba(0,0,0,0.5);
+		height: 0;
+		opacity: 0;
+		@include transition(opacity, 0.5s, ease-in-out);
+		
+
+		ul {
+			padding: 10px 70px 0;
+			max-width: 1280px;
+		    margin: 0 auto -9px;
+		    text-align: justify;
+		    &:after {
+				content: '';
+				display: inline-block;
+				width: 100%;
+			}
+		}
+		li {
+			display: inline-block;
+		}
+
+		a {
+			font: 14px $font-montserrat; 
+			letter-spacing: 0.09em;
+			font-weight: 200;
+			color: $color-offwhite;
+			text-transform: uppercase;
+		}
+
+		&.is-visible {
+
+			height: auto;
+			opacity: 1;
+		}
+
+	}
+
+	.mobile-nav-toggle {
+		position: relative;
+		float: right;
+		width: 28px;
+		height: 16px;
+		display: none;
+		.mobile-nav-trigger {
+
+			display: block;
+		    width: 28px;
+		    height: 16px;
+		    left: 70px;
+		    top: 25px;
+
+		    i {
+		    	display: block;
+			    text-indent: 100%;
+			    overflow: hidden;
+			    white-space: nowrap;
+			    height: 4px;
+			    background-color: #bbb;
+			    width: 100%;
+			    position: absolute;
+			    top: 50%;
+			    @include transition(all ease-out 0.1s);
+		    }
+
+		    &:before, &:after {
+		    	 content: '';
+				 position: absolute;
+				 top: 0;
+				 height: 0;
+				 border-bottom: 4px solid #bbb;
+				 width: 100%;
+				 left: 0;
+				 right: 0;
+				 @include transition(all ease-out 0.3s);
+		    }
+
+		    &:after {
+		    	top: 100%;
+		    }
+
+		    &.nav-active {
+
+		    	i {
+		    		opacity: 0;
+		    	}
+
+		    	&:after {
+			    	@include transform(rotate(-45deg));
+			    	@include transform-origin(center);
+			    	top: 50%;
+			    }
+
+			    &:before {
+			    	@include transform(rotate(45deg));
+			    	@include transform-origin(center);
+			    	top: 50%;
+		    	}
+
+		    }
+
+		}
+	}
+
+}
+
+@media ( max-width: $size-tablet-max ) {
+
+	.page-header {
+
+		.floating-nav {display: none;}
+
+		.main-nav {
+
+			display: none;
+			position: absolute;
+			padding-top: 85px;
+			top: 0;
+			left: 0;
+			width: 100%;
+			background-color: rgba(0,0,0,0.8);
+			text-align: center; 
+			ul {
+				li {
+					border-bottom: none;
+					padding: 20px 0;
+					a {
+						font-size: 24px;
+					}
+				}
+			}
+		}
+
+		.mobile-nav-toggle {
+
+			display: block;
+		}
+	}
+}
+
+@media ( max-width: $size-mobile-max ) {
+
+	.page-header {
+
+		padding: 50px 0;
+		position: relative;
+
+		.main-nav {
+			padding-top: 50px;
+			ul {
+				li {
+					border-bottom: none;
+					padding: 20px 0;
+					a {
+						font-size: 20px;
+					}
+				}
+			}
+		}
+
+		.mobile-nav-toggle {
+			position: absolute;
+			right: 20px;
+		}
+
+		.logo {
+			margin-top: 0;
+		}
+	}
+
+}
+
+@media (max-width: 375px) {
+
+	.page-header {
+
+		.logo {
+			margin-top: 50px;
+		}
+	}
+}

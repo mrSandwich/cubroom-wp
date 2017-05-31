@@ -1,0 +1,67 @@
+
+.reservations {
+
+	color: #fff;
+	background: url(../images/bg-marble.jpg) no-repeat;
+	@include background-size(cover);
+
+	.section-inner {
+		padding-top: 150px;
+		padding-bottom: 150px;
+	}
+
+	.section-inner-left {
+		padding-right: 100px;
+		a {
+			color: #fff;
+		}
+	}
+
+	.section-inner-right {
+		padding-left: 10%;
+	}
+
+	iframe {
+		border: 1px solid #fff;
+	}
+
+	.widget {
+		background-color: transparent;
+	}
+}
+
+@media ( max-width: 860px ) {
+
+	.reservations {
+
+		.section-inner-left, .section-inner-right {
+
+			width: 100%;
+		}
+
+		.section-inner-left {
+			margin-bottom: 50px;
+		}
+
+		.section-inner-right {
+			padding-left: 0;
+		}
+
+	}
+}
+@media ( max-width: $size-mobile ) {
+
+	.reservations {
+
+		h2 {
+			font-size: 32px;
+		}
+		.section-inner-left {
+			padding-right: 0;
+		}
+		iframe {
+			max-width: 320px;
+		}
+
+	}
+}
