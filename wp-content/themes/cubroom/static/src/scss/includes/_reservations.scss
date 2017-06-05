@@ -3,7 +3,7 @@
 
 	color: #fff;
 	background: url(../images/bg-marble.jpg) no-repeat;
-	@include background-size(cover);
+	background-size: cover;
 
 	.section-inner {
 		padding-top: 150px;

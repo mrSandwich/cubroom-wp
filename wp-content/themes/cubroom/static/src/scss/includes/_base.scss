@@ -1,5 +1,5 @@
 * {
-	@include box-sizing(border-box);
+	box-sizing: border-box;
 }
 
 a {
@@ -34,7 +34,7 @@ p {
 
 	.section-inner-left, .section-inner-right {
 
-		@include inline-block;
+		display: inline-block;
 		width: 46%;
 		vertical-align: top;
 	}
@@ -45,7 +45,7 @@ p {
 
 	height: 200px;
 	background: url(../images/header.jpg) no-repeat;
-	@include background-size(cover);
+	background-size: cover;
 }
 
 @media ( max-width: $size-mobile-max ) {
