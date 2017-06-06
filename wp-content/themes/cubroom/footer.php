@@ -12,7 +12,7 @@
 			<!-- /footer -->
 
 		</div>
-		<!-- /wrapper -->
+		<!-- /page-wrap -->
 
 		<?php wp_footer(); ?>
 

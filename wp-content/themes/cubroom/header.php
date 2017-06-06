@@ -18,25 +18,82 @@
 	<body <?php body_class(); ?>>
 
 		<!-- wrapper -->
-		<div class="wrapper">
+		<div class="page-wrap">
 
 			<!-- header -->
-			<header class="header clear" role="banner">
+			<header class= "page-header">
+                <div class="section-inner">
 
-					<!-- logo -->
-					<div class="logo">
-						<a href="<?php echo home_url(); ?>">
-							<!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
-							<img src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" alt="Logo" class="logo-img">
-						</a>
-					</div>
-					<!-- /logo -->
+                    <div class="logo">
+                        <!--[if lte IE 8]><img src="logo.png" /><![endif]-->
+                        <!--[if gt IE 8]><img src="logo.svg" /><![endif]-->
+                        <!--[if !IE]> --><img src="dist/images/logo3.svg"><!-- <![endif]-->
+                        <h1>The Cub Room Rochestester</h1>
+                        <ul class="fun-list">
+                            <li>dining</li>
+                            <li>camaraderie</li>
+                            <li>libations</li>
+                        </ul>
+                    </div>
+                    
+                    <nav class="main-nav">
+                        
+                        <ul>
+                            <li>
+                                <a href="#contact">contact</a>
+                            </li>
+                            <li>
+                                <a href="#menu">menu</a>
+                            </li>
+                             <li>
+                                <a href="#about">about</a>
+                            </li>
+                           <li>
+                                <a href="#reservations">reservations</a>
+                            </li>
+                            <li>
+                                <a href="#gallery">gallery</a>
+                            </li>
+                            <!-- <li>
+                                <a href="#press">press</a>
+                            </li> -->
 
-					<!-- nav -->
-					<nav class="nav" role="navigation">
-						<?php html5blank_nav(); ?>
-					</nav>
-					<!-- /nav -->
+                        </ul>
 
-			</header>
+                    </nav>
+
+                    <nav class="floating-nav">
+                        
+                        <ul>
+                            <li>
+                                <a href="#contact">contact</a>
+                            </li>
+                            <li>
+                                <a href="#menu">menu</a>
+                            </li>
+                            <li>
+                                <a href="#about">about</a>
+                            </li>
+                            <li>
+                                <a href="#reservations">reservations</a>
+                            </li>
+                            <li>
+                                <a href="#gallery">gallery</a>
+                            </li>
+                            <!-- <li>
+                                <a href="#press">press</a>
+                            </li> -->
+                        </ul>
+
+                    </nav>
+
+                    <div class="mobile-nav-toggle">
+                        
+                    <a class="mobile-nav-trigger" href="#main-nav"><i>Menu</i></a>
+
+                    </div>
+                    
+                </div>
+
+            </header>
 			<!-- /header -->
