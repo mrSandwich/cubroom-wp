@@ -1,3 +1,4 @@
-.DS_Store
+
+wp-content/themes/cubroom/static/gulp/node_modules/dist/
 .htaccess
 wp-content/themes/cubroom/static/gulp/node_modules/

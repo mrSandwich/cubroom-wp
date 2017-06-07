@@ -39,7 +39,7 @@
 
 				var $burger = $('.mobile-nav-trigger');
 
-				$burger.on('click', '.mobile-nav-trigger', function(e) {
+				$burger.on('click', function(e) {
 
 					e.preventDefault();
 
