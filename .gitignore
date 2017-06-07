@@ -2,3 +2,4 @@
 wp-content/themes/cubroom/static/gulp/node_modules/dist/
 .htaccess
 wp-content/themes/cubroom/static/gulp/node_modules/
+.DS_Store
