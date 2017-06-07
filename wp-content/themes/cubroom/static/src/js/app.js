@@ -11,6 +11,7 @@
 			this.navActions.mobileNav();
 			this.navActions.animateNav();
 			this.slideShow.init();
+			this.navActions.floatingNav();
 		},
 		slideShow: {
 
@@ -71,9 +72,34 @@
 				   $("html:not(:animated),body:not(:animated)").animate({ scrollTop: destination - 35}, 500 );
 				});
 
+			}, 
+			floatingNav: function() {
+
+				var scroll,
+					$floatingNav = $('.floating-nav'),
+					nextOffset = $('.contact').offset().top;
+
+				window.addEventListener('scroll', function() {
+
+					scroll = $(window).scrollTop();
+
+					if ( scroll > nextOffset ) {
+
+						if ( !$floatingNav.hasClass('is-visible') ) {
+
+							$floatingNav.addClass('is-visible');
+						}
+
+					} else {
+
+						$floatingNav.removeClass('is-visible')
+					}
+
+				});
 			}
 
 		}
+		//end navActions
 
 	}
 
