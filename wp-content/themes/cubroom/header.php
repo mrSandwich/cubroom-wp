@@ -14,6 +14,8 @@
 
 		<?php wp_head(); ?>
 
+        <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/static/dist/css/slick.css">
+
 	</head>
 	<body <?php body_class(); ?>>
 
@@ -27,7 +29,7 @@
                     <div class="logo">
                         <!--[if lte IE 8]><img src="logo.png" /><![endif]-->
                         <!--[if gt IE 8]><img src="logo.svg" /><![endif]-->
-                        <!--[if !IE]> --><img src="dist/images/logo3.svg"><!-- <![endif]-->
+                        <!--[if !IE]> --><img src="<?php echo get_template_directory_uri(); ?>/static/dist/img/logo3.svg"><!-- <![endif]-->
                         <h1>The Cub Room Rochestester</h1>
                         <ul class="fun-list">
                             <li>dining</li>

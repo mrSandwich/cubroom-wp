@@ -1,8 +1,7 @@
 var gulp = require('gulp'),
 	sass = require('gulp-sass'),
 	cssmin = require('gulp-cssmin'),
-	jshint = require('gulp-jshint'),
- 	concat = require('gulp-concat');
+ 	uglify = require('gulp-uglify');
  
 gulp.task('sass', function () {
  
@@ -17,13 +16,10 @@ gulp.task('sass', function () {
 });
 
 gulp.task('js', function () {
- 
-	gulp.src('../src/js/*.js')
- 
-		.pipe(concat('app.js'))
- 
-		.pipe(gulp.dest('../dist/js'));
- 
+
+  return gulp.src('../src/js/*.js')
+    .pipe(uglify())
+    .pipe(gulp.dest('../dist/js'));
 });
 
 gulp.task('watch', function() {

@@ -11,6 +11,12 @@ img {
 	max-width: 100%;
 }
 
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
 h1, h2 {
 	font: 45px $font-montserrat;
 	font-weight: bold;
@@ -22,6 +28,10 @@ p {
 	font-family: $font-montserratthin;
 	line-height: 22px;
 	margin-bottom: 9px;
+}
+
+address {
+	font-style: normal;
 }
 
 
@@ -41,10 +51,10 @@ p {
 
 }
 
-.temp-page-footer {
+footer {
 
 	height: 200px;
-	background: url(../images/header.jpg) no-repeat;
+	background: url(../img/header.jpg) no-repeat;
 	background-size: cover;
 }
 

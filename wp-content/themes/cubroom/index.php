@@ -93,9 +93,10 @@
 
                 <div class="copy">
                     <h2>fresh, seasonal american fare</h2>
-                    <p>The Cub Room is an American Restaurant located at the Edge of the Wedge in Downtown Rochester, NY. The husband and wife team, Greg and Jodi Johnson, bring their rich experience from New York City and offer up an homage to an era in time when service and dining meant only the best.</p>
-                    <p>The Cub Room offers American fare that is fresh and seasonal set in a casual, yet stylish environment.</p>
-                    <p>The Cub Room is a place of camaraderie to spend the evening; eat, drink, and mingle. Lose yourself in an atmosphere where we encourage you to indulge, imbibe, and smile</p>
+                    <p>The Cub Room is an American Restaurant located in the South Wedge Area of Rochester. We are first a family that lives here with our 2 kids and we love this city. We have taken our experience from over 20 years in NYC, working in fine restaurants to offer up an homage to an era in time when service and dining meant only the best.</p>
+                    <p> We let the seasons drive and inspire our menu, with a great network of purveyors locally, regionally, and beyond we go to great lengths to source products with integrity for our food and beverage programs.</p>
+                    <p>Our Bar serves high quality cocktails in a speak easy style, inspired by the history of the prohibition era, where the presentation is just as dramatic as the cocktail itself.</p>
+                    <p>We are a place of camaraderie, where we encourage you to indulge, imbibe, and smile.</p>
                 </div>
 
             </div>
@@ -127,16 +128,16 @@
         <section id="gallery">
              
              <div class="slideshow">
-                <div class="slide"><img src="dist/images/slides/smaller/068.jpg"></div>
-                <div class="slide"><img src="dist/images/slides/smaller/013.jpg"></div>
-                <div class="slide"><img src="dist/images/slides/smaller/025.jpg"></div>
-                <div class="slide"><img src="dist/images/slides/smaller/Flamedrink.jpg"></div>
-                <div class="slide"><img src="dist/images/slides/smaller/043.jpg"></div>
-                <div class="slide"><img src="dist/images/slides/smaller/045.jpg"></div>
-                <div class="slide"><img src="dist/images/slides/smaller/038.jpg"></div>
-                <div class="slide"><img src="dist/images/slides/smaller/060.jpg"></div>
-                <div class="slide"><img src="dist/images/slides/smaller/0032.jpg"></div>
-                <div class="slide"><img src="dist/images/slides/smaller/009.jpg"></div>
+                <div class="slide"><img src="<?php echo get_template_directory_uri(); ?>/static/dist/img/slides/smaller/068.jpg"></div>
+                <div class="slide"><img src="<?php echo get_template_directory_uri(); ?>/static/dist/img/slides/smaller/013.jpg"></div>
+                <div class="slide"><img src="<?php echo get_template_directory_uri(); ?>/static/dist/img/slides/smaller/025.jpg"></div>
+                <div class="slide"><img src="<?php echo get_template_directory_uri(); ?>/static/dist/img/slides/smaller/Flamedrink.jpg"></div>
+                <div class="slide"><img src="<?php echo get_template_directory_uri(); ?>/static/dist/img/slides/smaller/043.jpg"></div>
+                <div class="slide"><img src="<?php echo get_template_directory_uri(); ?>/static/dist/img/slides/smaller/045.jpg"></div>
+                <div class="slide"><img src="<?php echo get_template_directory_uri(); ?>/static/dist/img/slides/smaller/038.jpg"></div>
+                <div class="slide"><img src="<?php echo get_template_directory_uri(); ?>/static/dist/img/slides/smaller/060.jpg"></div>
+                <div class="slide"><img src="<?php echo get_template_directory_uri(); ?>/static/dist/img/slides/smaller/0032.jpg"></div>
+                <div class="slide"><img src="<?php echo get_template_directory_uri(); ?>/static/dist/img/slides/smaller/009.jpg"></div>
              </div>
 
         </section>
