@@ -121,10 +121,6 @@
                          <p class="answer">Definitely! And we encourage them always, especially on the weekends! Just give us a call or book on our website or Open Table.</p>
                      </li>
                      <li>
-                         <p class="question">Where does the name come from?</p>
-                         <p class="answer">American cuisine with influences from Italy and Spain. We let the seasons drive and inspire our menu, with a great network of purveyors locally, regionally, and beyond we go to great lengths to source products with integrity for our food and beverage programs.</p>
-                     </li>
-                     <li>
                          <p class="question">Are there vegetarian dishes?</p>
                          <p class="answer">Yes.</p>
                      </li>
@@ -165,7 +161,7 @@
                          <p class="answer">$20 per bottle.</p>
                      </li>
                      <li>
-                         <p class="question">How many seats does the restourant have?</p>
+                         <p class="question">How many seats does the restaurant have?</p>
                          <p class="answer">130</p>
                      </li>
                      <li>

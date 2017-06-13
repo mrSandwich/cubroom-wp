@@ -5,16 +5,17 @@
 	}
 	h2 {
 		text-align: center;
-		margin-bottom: 7px;
+		margin-bottom: 10px;
 	}
 	background-color: #000;
 	color: #9a725c;
-	ul {
-
+	li {
+		margin-bottom: 18px;
 	}
 	.question {
 		font-size: 26px;
 		cursor: pointer;
+		margin-bottom: 0;
 	}
 	.answer {
 		max-height: 0;
@@ -22,11 +23,11 @@
 		-webkit-transition: max-height 0.8s;
 		-moz-transition: max-height 0.8s;
 		transition: max-height 0.8s;
-		margin-bottom: 12px;
+		margin-bottom: 0;
 		color: #fff;
 		&.expanded {
 			max-height: 200px;
-			margin-bottom: 17px;
+			margin-top: 12px;
 		}
 	}
 }
