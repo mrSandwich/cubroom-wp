@@ -12,6 +12,7 @@
 			this.navActions.animateNav();
 			this.slideShow.init();
 			this.navActions.floatingNav();
+			this.faq.init();
 		},
 		slideShow: {
 
@@ -35,7 +36,6 @@
 		},
 		navActions: {
 			mobileNav: function() {
-				console.log($('.mobile-nav-trigger'))
 
 				var $burger = $('.mobile-nav-trigger');
 
@@ -59,7 +59,6 @@
 				});
 			},
 			animateNav: function() {	
-				console.log($('nav a'));
 
 				$('nav a').click(function(e) {
 
@@ -98,6 +97,20 @@
 				});
 			}
 
+		},
+		faq: {
+			init: function() {
+				var qs = document.querySelectorAll('.question'),
+					i = 0, len=qs.length, ans;
+
+				for (i; i<len; i++) {
+					qs[i].addEventListener('click', function() {
+						ans = this.parentNode.querySelector('.answer');
+
+						$(ans).addClass('expanded');
+					});
+				}
+			}
 		}
 		//end navActions
 

@@ -104,6 +104,85 @@
                 
         </section>
          <!-- about -->
+         <section class="faq" id="faq">
+             <div class="section-inner">
+                 <h2>FAQ</h2>
+                 <ul>
+                     <li>
+                         <p class="question">What kind of food does the Cub Room serve?</p>
+                         <p class="answer">American cuisine with influences from Italy and Spain. We let the seasons drive and inspire our menu, with a great network of purveyors locally, regionally, and beyond we go to great lengths to source products with integrity for our food and beverage programs</p>
+                     </li>
+                     <li>
+                         <p class="question">Where does the name come from?</p>
+                         <p class="answer">The Cub Room gets its name from a restaurant in Manhattan that was opened by a bootlegger named Sherman Billingsley in 1929,  called The Stork Club. The Stork Club was frequented by celebrities, politicians, and gangsters; they all mixed and mingled in the V.I.P. room within the Stork Club –called The Cub Room. The owners pay homage to their life in New York with this name and concept/p>
+                     </li>
+                     <li>
+                         <p class="question">Do you take reservations?</p>
+                         <p class="answer">Definitely! And we encourage them always, especially on the weekends! Just give us a call or book on our website or Open Table.</p>
+                     </li>
+                     <li>
+                         <p class="question">Where does the name come from?</p>
+                         <p class="answer">American cuisine with influences from Italy and Spain. We let the seasons drive and inspire our menu, with a great network of purveyors locally, regionally, and beyond we go to great lengths to source products with integrity for our food and beverage programs.</p>
+                     </li>
+                     <li>
+                         <p class="question">Are there vegetarian dishes?</p>
+                         <p class="answer">Yes.</p>
+                     </li>
+                     <li>
+                         <p class="question">At what time does the kitchen close?</p>
+                         <p class="answer">M,T,W,Th 10Pm, 11pm on Friday and Saturday, Sunday open for Brunch; kitchen closes at 3:30.</p>
+                     </li>
+                     <li>
+                         <p class="question">Do you have gift certificates?</p>
+                         <p class="answer">Yes.</p>
+                     </li>
+                     <li>
+                         <p class="question">Who owns the Cub Room?</p>
+                         <p class="answer">Husband and wife team, Greg and Jodi Johnson.</p>
+                     </li>
+                     <li>
+                         <p class="question">What is the chef's name?</p>
+                         <p class="answer">Greg Johnson</p>
+                     </li>
+                     <li>
+                         <p class="question">Where did the chef cook before?</p>
+                         <p class="answer">Greg is a Manhattan Chef. Greg graduated from CIA and started as a line cook with Mario Batali at ESCA in NYC. He then worked his way up through the ranks at such places as FRESCO by Scotto, Abbocato, Dani, Sala 19, and then part owner/Exec Chef at Rye House.</p>
+                     </li>
+                     <li>
+                         <p class="question">Where can guests park?</p>
+                         <p class="answer">There is a main parking lot on the left of the building, as well as parking on the other side of building, and street parking on either side on South Clinton Ave.</p>
+                     </li>
+                     <li>
+                         <p class="question">What time do you serve dinner</p>
+                         <p class="answer">5pm</p>
+                     </li>
+                     <li>
+                         <p class="question">Dress code?</p>
+                         <p class="answer">Stylish yet casual – you see it all at the Cub Room; from dresses to jeans to shorts in the summer!</p>
+                     </li>
+                     <li>
+                         <p class="question">What is the corkage fee?</p>
+                         <p class="answer">$20 per bottle.</p>
+                     </li>
+                     <li>
+                         <p class="question">How many seats does the restourant have?</p>
+                         <p class="answer">130</p>
+                     </li>
+                     <li>
+                         <p class="question">Who designed the interior?</p>
+                         <p class="answer">The owner Jodi Johnson created the beautiful space, with some input from Chef!</p>
+                     </li>
+                     <li>
+                         <p class="question">What about large parties?</p>
+                         <p class="answer">We have a semi-private room that seats up to 25.</p>
+                     </li>
+                     <li>
+                        <p class="question">What credit cards do you accept?</p>
+                        <p class="answer">VISA, MC, AMEX, DISCOVER</p>
+                     </li>
+                 </ul>
+             </div>
+         </section>
         <section class="reservations" id="reservations">
 
             <div class="section-inner">

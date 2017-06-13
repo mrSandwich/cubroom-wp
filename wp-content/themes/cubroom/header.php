@@ -47,8 +47,11 @@
                             <li>
                                 <a href="#menu">menu</a>
                             </li>
-                             <li>
+                            <li>
                                 <a href="#about">about</a>
+                            </li>
+                            <li>
+                                <a href="#faq">FAQ</a>
                             </li>
                            <li>
                                 <a href="#reservations">reservations</a>
