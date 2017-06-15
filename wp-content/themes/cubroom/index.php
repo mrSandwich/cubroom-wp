@@ -99,11 +99,18 @@
                     <p>We are a place of camaraderie, where we encourage you to indulge, imbibe, and smile.</p>
                 </div>
 
-            </div>
-
-                
+            </div>                
         </section>
-         <!-- about -->
+        <section class="posts">
+
+            <h1><?php _e( 'Latest Posts', 'html5blank' ); ?></h1>
+
+            <?php get_template_part('loop'); ?>
+
+            <?php get_template_part('pagination'); ?>
+
+        </section>
+         <!-- posts -->
         <section class="reservations" id="reservations">
 
             <div class="section-inner">
@@ -214,16 +221,6 @@
                  </ul>
              </div>
          </section>
-		<section class="posts">
-
-			<h1><?php _e( 'Latest Posts', 'html5blank' ); ?></h1>
-
-			<?php get_template_part('loop'); ?>
-
-			<?php get_template_part('pagination'); ?>
-
-		</section>
-		
 	</main>
 
 
