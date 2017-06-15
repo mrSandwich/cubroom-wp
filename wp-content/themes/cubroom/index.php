@@ -58,25 +58,25 @@
                 
                 <ul>
                     <li>
-                        <a href="dist/images/menus/menu-brunch.pdf" target="_blank">brunch</a>
+                        <a href="/wp-content/uploads/menu_brunch.pdf" target="_blank">brunch</a>
                     </li>
                     <li>
-                        <a href="dist/images/menus/Lunch_menu.pdf" target="_blank">lunch</a>
+                        <a href="/wp-content/uploads/menu_lunch.pdf" target="_blank">lunch</a>
                     </li>
                     <li>
-                        <a href="dist/images/menus/Dinner_Menu.pdf" target="_blank">dinner</a>
+                        <a href="/wp-content/uploads/menu_dinner.pdf" target="_blank">dinner</a>
                     </li>
                     <li>
-                        <a href="dist/images/menus/Dessert_menu.pdf" target="_blank">dessert</a>
+                        <a href="/wp-content/uploads/menu_dessert.pdf" target="_blank">dessert</a>
                     </li>
                     <li>
-                        <a href="dist/images/menus/liquor_menu.pdf" target="_blank">cocktails</a>
+                        <a href="/wp-content/uploads/menu_liquor.pdf" target="_blank">cocktails</a>
                     </li>
                     <li>
-                        <a href="dist/images/menus/menu-wine.pdf" target="_blank">wine</a>
+                        <a href="/wp-content/uploads/menu_wine.pdf" target="_blank">wine</a>
                     </li>
                     <li>
-                        <a href="dist/images/menus/Bar_menu.pdf" target="_blank">bar menu</a>
+                        <a href="/wp-content/uploads/menu_bar.pdf" target="_blank">bar menu</a>
                     </li>
 
                 </ul>
@@ -104,6 +104,41 @@
                 
         </section>
          <!-- about -->
+        <section class="reservations" id="reservations">
+
+            <div class="section-inner">
+                
+                <div class="section-inner-left">
+                    <h2>Reservations</h2>
+                    <p>Make a reservation here, or call <a href="tel:585-363-5694">585-363-5694</a> </p>
+
+                </div>
+                <div class="section-inner-right">
+                     <div class="iframe‐wrapper">
+                        <iframe src="https://us2.eveve.com/tms/DateCovers.php?Est=CubRoom"> frameborder="0" style="height:520px;width:100%;">
+                        </iframe>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+        <section id="gallery">
+             
+             <div class="slideshow">
+                <div class="slide"><img src="<?php echo get_template_directory_uri(); ?>/static/dist/img/slides/smaller/068.jpg"></div>
+                <div class="slide"><img src="<?php echo get_template_directory_uri(); ?>/static/dist/img/slides/smaller/013.jpg"></div>
+                <div class="slide"><img src="<?php echo get_template_directory_uri(); ?>/static/dist/img/slides/smaller/025.jpg"></div>
+                <div class="slide"><img src="<?php echo get_template_directory_uri(); ?>/static/dist/img/slides/smaller/Flamedrink.jpg"></div>
+                <div class="slide"><img src="<?php echo get_template_directory_uri(); ?>/static/dist/img/slides/smaller/043.jpg"></div>
+                <div class="slide"><img src="<?php echo get_template_directory_uri(); ?>/static/dist/img/slides/smaller/045.jpg"></div>
+                <div class="slide"><img src="<?php echo get_template_directory_uri(); ?>/static/dist/img/slides/smaller/038.jpg"></div>
+                <div class="slide"><img src="<?php echo get_template_directory_uri(); ?>/static/dist/img/slides/smaller/060.jpg"></div>
+                <div class="slide"><img src="<?php echo get_template_directory_uri(); ?>/static/dist/img/slides/smaller/0032.jpg"></div>
+                <div class="slide"><img src="<?php echo get_template_directory_uri(); ?>/static/dist/img/slides/smaller/009.jpg"></div>
+             </div>
+        </section>
          <section class="faq" id="faq">
              <div class="section-inner">
                  <h2>FAQ</h2>
@@ -179,44 +214,6 @@
                  </ul>
              </div>
          </section>
-        <section class="reservations" id="reservations">
-
-            <div class="section-inner">
-                
-                <div class="section-inner-left">
-                    <h2>Reservations</h2>
-                    <p>Make a reservation here, or call <a href="tel:585-363-5694">585-363-5694</a> </p>
-
-                </div>
-                <div class="section-inner-right">
-                     <div class="iframe‐wrapper">
-                        <iframe src="https://us2.eveve.com/tms/DateCovers.php?Est=CubRoom"> frameborder="0" style="height:520px;width:100%;">
-                        </iframe>
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-        <section id="gallery">
-             
-             <div class="slideshow">
-                <div class="slide"><img src="<?php echo get_template_directory_uri(); ?>/static/dist/img/slides/smaller/068.jpg"></div>
-                <div class="slide"><img src="<?php echo get_template_directory_uri(); ?>/static/dist/img/slides/smaller/013.jpg"></div>
-                <div class="slide"><img src="<?php echo get_template_directory_uri(); ?>/static/dist/img/slides/smaller/025.jpg"></div>
-                <div class="slide"><img src="<?php echo get_template_directory_uri(); ?>/static/dist/img/slides/smaller/Flamedrink.jpg"></div>
-                <div class="slide"><img src="<?php echo get_template_directory_uri(); ?>/static/dist/img/slides/smaller/043.jpg"></div>
-                <div class="slide"><img src="<?php echo get_template_directory_uri(); ?>/static/dist/img/slides/smaller/045.jpg"></div>
-                <div class="slide"><img src="<?php echo get_template_directory_uri(); ?>/static/dist/img/slides/smaller/038.jpg"></div>
-                <div class="slide"><img src="<?php echo get_template_directory_uri(); ?>/static/dist/img/slides/smaller/060.jpg"></div>
-                <div class="slide"><img src="<?php echo get_template_directory_uri(); ?>/static/dist/img/slides/smaller/0032.jpg"></div>
-                <div class="slide"><img src="<?php echo get_template_directory_uri(); ?>/static/dist/img/slides/smaller/009.jpg"></div>
-             </div>
-
-        </section>
-
 		<section class="posts">
 
 			<h1><?php _e( 'Latest Posts', 'html5blank' ); ?></h1>
@@ -226,9 +223,8 @@
 			<?php get_template_part('pagination'); ?>
 
 		</section>
-		<!-- /section -->
+		
 	</main>
 
-<?php get_sidebar(); ?>
 
 <?php get_footer(); ?>
