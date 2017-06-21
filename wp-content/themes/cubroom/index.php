@@ -101,13 +101,16 @@
 
             </div>                
         </section>
-        <section class="posts">
+        <section class="news_events">
 
-            <h1><?php _e( 'Latest Posts', 'html5blank' ); ?></h1>
+            <div class="posts-container">
+                <h2><?php _e( 'News and Events', 'html5blank' ); ?></h2>
 
-            <?php get_template_part('loop'); ?>
-
-            <?php get_template_part('pagination'); ?>
+                <?php get_template_part('loop'); ?>
+            </div>
+            <div class="form-container">
+                <?php echo do_shortcode('[contact-form-7 id="28" title="Contact form 1"]') ?>
+            </div>
 
         </section>
          <!-- posts -->
