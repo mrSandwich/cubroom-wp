@@ -102,16 +102,22 @@
             </div>                
         </section>
         <section class="news_events">
+            <div class="section-inner">
+                 <h2>News and Events</h2>
+                <div class="section-inner-left">
+                    <div class="posts-container">
+                        <h3><?php _e( 'Upcoming Events', 'html5blank' ); ?></h3>
 
-            <div class="posts-container">
-                <h2><?php _e( 'News and Events', 'html5blank' ); ?></h2>
-
-                <?php get_template_part('loop'); ?>
+                        <?php get_template_part('loop'); ?>
+                    </div>
+                </div>
+                <div class="section-inner-right">
+                    <div class="form-container">
+                        <h3>Book a Private Event!</h3>
+                        <?php echo do_shortcode('[contact-form-7 id="28" title="Contact form 1"]') ?>
+                    </div>
+                </div>
             </div>
-            <div class="form-container">
-                <?php echo do_shortcode('[contact-form-7 id="28" title="Contact form 1"]') ?>
-            </div>
-
         </section>
          <!-- posts -->
         <section class="reservations" id="reservations">
