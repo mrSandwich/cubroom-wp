@@ -50,19 +50,18 @@
                             <li>
                                 <a href="#about">about</a>
                             </li>
-                            <li>
-                                <a href="#faq">FAQ</a>
-                            </li>
                            <li>
                                 <a href="#reservations">reservations</a>
                             </li>
                             <li>
+                                <a href="#news">news and events</a>
+                            </li>
+                            <li>
                                 <a href="#gallery">gallery</a>
                             </li>
-                            <!-- <li>
-                                <a href="#press">press</a>
-                            </li> -->
-
+                            <li>
+                                <a href="#faq">FAQ</a>
+                            </li>
                         </ul>
 
                     </nav>
@@ -83,11 +82,14 @@
                                 <a href="#reservations">reservations</a>
                             </li>
                             <li>
+                                <a href="#news">news and events</a>
+                            </li>
+                            <li>
                                 <a href="#gallery">gallery</a>
                             </li>
-                            <!-- <li>
-                                <a href="#press">press</a>
-                            </li> -->
+                            <li>
+                                <a href="#faq">faq</a>
+                            </li>
                         </ul>
 
                     </nav>
