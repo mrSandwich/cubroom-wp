@@ -112,7 +112,7 @@
                 </div>
                 <div class="section-inner-right">
                      <div class="iframe‐wrapper">
-                        <iframe src="https://us2.eveve.com/tms/DateCovers.php?Est=CubRoom"> frameborder="0" style="height:520px;width:100%;">
+                        <iframe src="https://www.opentable.com/r/the-cub-room-reservations-rochester?restref=333469&lang=en"> frameborder="0" style="height:520px;width:100%;">
                         </iframe>
                     </div>
 
@@ -159,7 +159,7 @@
                  <h2>FAQ</h2>
                  <ul>
                      <li>
-                         <p class="question">What kind of food does the Cub Room serve?</p>
+                         <p class="question">What kind of food does The Cub Room serve?</p>
                          <p class="answer">American cuisine with influences from Italy and Spain. We let the seasons drive and inspire our menu, with a great network of purveyors locally, regionally, and beyond we go to great lengths to source products with integrity for our food and beverage programs</p>
                      </li>
                      <li>
@@ -183,7 +183,7 @@
                          <p class="answer">Yes.</p>
                      </li>
                      <li>
-                         <p class="question">Who owns the Cub Room?</p>
+                         <p class="question">Who owns The Cub Room?</p>
                          <p class="answer">Husband and wife team, Greg and Jodi Johnson.</p>
                      </li>
                      <li>
@@ -204,7 +204,7 @@
                      </li>
                      <li>
                          <p class="question">Dress code?</p>
-                         <p class="answer">Stylish yet casual – you see it all at the Cub Room; from dresses to jeans to shorts in the summer!</p>
+                         <p class="answer">Stylish yet casual – you see it all at The Cub Room; from dresses to jeans to shorts in the summer!</p>
                      </li>
                      <li>
                          <p class="question">What is the corkage fee?</p>
